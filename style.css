@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gowun+Batang:wght@400;700&family=Jacquarda+Bastarda+9&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+htlm{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37,37,37);
+}
+
+.button-container  , #addNew{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+}
+
+button , #addNew {
+    cursor: pointer;
+    outline: none;
+    height: 75px;
+    width: 120px;
+    font-family: Barlow, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 2px 5px black;
+    background: linear-gradient(to top, #696969,#575757);
+    border: 2px solid black;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4),0 12px 12px 0  rgba(0, 0 0, 0.3);
+}
+
+
+button:hover  , #addNew:hover {
+    background: linear-gradient(to bottom, #696969,#575757);
+}
+
+button:active  , #addNew:active {
+    background: linear-gradient(to bottom, #575757,#696969);
+    box-shadow: inset 0 10px 20px 0 rgba(0, 0 0, 0.2);
+    transform: translateY(3px);
+}
+
+
+
